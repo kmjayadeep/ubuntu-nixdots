@@ -16,6 +16,7 @@
     # GUI apps
     pcmanfm # file manager
     xarchiver # extract archives in pcmanfm
+    pavucontrol # sound control
 
     # Other apps
     arandr # manage xrandr

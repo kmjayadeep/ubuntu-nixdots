@@ -5,8 +5,11 @@
   home.homeDirectory = "/home/jayadeep";
   home.stateVersion = "24.05";
   programs.home-manager.enable = true;
+  
+  targets.genericLinux.enable = true;
 
   imports = [
+    ./apps/i3
     ./apps/nvim
     ./apps/shell
     ./apps/taskwarrior

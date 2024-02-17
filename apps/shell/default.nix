@@ -32,7 +32,7 @@
       la = "eza -la --icons";
       ip = "ip --color=auto";
       v = "\${EDITOR:-nvim}";
-      rebuild = "nix run nixpkgs#home-manager -- switch --flake $NIXOS_CONFIG_DIR; notify-send 'Rebuild complete\!'";
+      rebuild = "nix run nixpkgs#home-manager -- switch --flake $NIXOS_CONFIG_DIR";
       gameoff = "killall -9 .Discord-wrapped steam dota2";
       t = "task";
     };

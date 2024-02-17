@@ -2,8 +2,13 @@
   config,
   lib,
   inputs,
+  pkgs,
   ...
 }: {
+  home.packages = with pkgs; [
+    pinentry
+  ];
+
   programs.gpg = {
     enable = true;
     homedir = "${config.home.homeDirectory}/private/gpg";
