@@ -12,6 +12,7 @@
     alejandra # format nix files
     protonmail-bridge # For protonmail
     unzip
+    glxinfo # opengl utils
 
     # GUI apps
     pcmanfm # file manager

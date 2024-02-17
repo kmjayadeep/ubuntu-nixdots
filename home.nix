@@ -10,6 +10,7 @@
 
   imports = [
     ./apps/i3
+    ./apps/kitty
     ./apps/nvim
     ./apps/shell
     ./apps/taskwarrior
