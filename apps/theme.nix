@@ -15,9 +15,14 @@
 
   gtk = {
     enable = true;
+
     theme = {
-      name = "Flat-Remix-GTK-Blue-Dark";
-      package = pkgs.flat-remix-gtk;
+      name = "Catppuccin-Mocha-Compact-Lavender-Dark";
+      package = pkgs.catppuccin-gtk.override {
+        accents = [ "lavender" ];
+        size = "compact";
+        variant = "mocha";
+      };
     };
 
     cursorTheme = {
