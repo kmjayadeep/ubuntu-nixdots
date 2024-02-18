@@ -16,6 +16,7 @@
     ./apps/taskwarrior
 
     ./apps/env.nix
+    ./apps/fonts.nix
     ./apps/git.nix
     ./apps/gpg.nix
     ./apps/packages.nix
