@@ -20,6 +20,7 @@
     ./apps/git.nix
     ./apps/gpg.nix
     ./apps/packages.nix
+    ./apps/security.nix
     ./apps/theme.nix
   ];
 }
